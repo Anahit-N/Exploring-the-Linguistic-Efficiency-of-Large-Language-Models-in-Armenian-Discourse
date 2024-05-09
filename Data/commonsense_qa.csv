@@ -1,0 +1,553 @@
+question,question_concept,choices,answerKey,choice_A,choice_B,choice_C,choice_D,choice_E,question_arm,choice_A_arm,choice_B_arm,choice_C_arm,choice_D_arm,choice_E_arm,responses_en_ZS,responses_arm_ZS,response_en_OS,response_arm_OS,response_en_FS,response_arm_FS,response_arm_sys_ZS,response_arm_sys_OS,response_arm_sys_FS,responses_en_ZS_letter,responses_en_ZS_text,response_en_OS_letter,response_en_OS_text,response_en_FS_letter,response_en_FS_text,responses_arm_ZS_letter,responses_arm_ZS_text,response_arm_OS_letter,response_arm_OS_text,response_arm_FS_letter,response_arm_FS_text,response_arm_sys_ZS_letter,response_arm_sys_ZS_text,response_arm_sys_OS_letter,response_arm_sys_OS_text,response_arm_sys_FS_letter,response_arm_sys_FS_text
+"Bill sits down on a whoopee cushion, what sound does he make when he sits?",sitting down,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['fall asleep', 'flatulence', 'sigh of relief', 'medium', 'comfort'],
+      dtype=object)}",B,fall asleep,flatulence,sigh of relief,medium,comfort,"Բիլլը նստում է բարձիկի վրա, ի՞նչ ձայն է նա նստում:","քնել, քնով անցնել",փքվածություն,թեթեւացած հոգոց,միջին,հարմարավետություն,B) flatulence,D) միջին,B) flatulence,"A) քնել, քնով անցնել
+B) փքվածություն
+C) թեթեւացած հոգոց
+D) միջին
+E) հարմարավետություն",B,E) հարմարավետություն,"Բիլլը նստում է բատմերի վրա, ի՞նչ քանիսացում կատարվի։
+
+A) մեկը B) երկուսը C) երեքը D) չի քանիսացում","A) քնել, քնով անցնել","A) քնել, քնով անցնել",B,flatulence,B,flatulence,B,,D,միջին,A,"քնել, քնով անցնել
+B) փքվածություն
+C) թեթեւացած հոգոց
+D) միջին
+E) հարմարավետություն",E,հարմարավետություն,,մեկը B) երկուսը C) երեքը D) չի քանիսացում,A,"քնել, քնով անցնել",A,"քնել, քնով անցնել"
+What is likely heard by those going to a party?,going to party,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['smoking pot', 'happiness', 'laughter', 'babies',
+       'meet new people'], dtype=object)}",C,smoking pot,happiness,laughter,babies,meet new people,Ի՞նչ են հավանաբար լսում երեկույթի գնացողները:,ծխելու կաթսա,երջանկություն,ծիծաղ,նորածիններ,հանդիպել նոր մարդկանց,C) laughter,E) հանդիպել նոր մարդկանց,C) laughter,"Example:
+Question: What are the basic colors in the RGB color model?
+Options:
+A) Red, Green, Blue
+B) Red, Yellow, Blue
+C) Cyan, Magenta, Yellow
+D) Black, white, gray
+E) Primary, secondary, tertiary
+
+The correct answer is A) Red, Green, Blue.
+
+Now answer this:
+Question: Ի՞նչ են Հայաստանից արտադրվող մշակութային իրերը:
+Options:
+A) մանկատա. վերեմուծական. երաժշտական
+B) մանկատա. ներքաղաքական. երաժշտական
+C) հայկական. պողպատական. արբերաբարձական
+D) հայկական. այլևուսական. արբերաղձական
+E) քարեկամանկատա. մետաղաքական. երաժշտական",C) laughter,"Q: Ի՞նչ են հավանաբար լսում երեկույթի գնացողները:
+
+Options:
+A) ծխելու կաթսա
+B) երջանկություն
+C) ծիծաղ
+D) նորածիններ
+E) հանդիպել նոր մարդկանց",E) հանդիպել նոր մարդկանց,Պատասխանը պետք է լինի B) երջանկություն,"Բոլորը հավանաբար լսում են երեկույթի գնացողները։ Բայց ըստ հարցի առաջին մասն, վերջինը լսում են ""նորածիններ""։ Իսկ այնպես չեն լսում ծխելու կաթսեն, երջանկությունը, ծիծաղին կամ հանդիպել նոր մարդկանցին։ Մոտավորապես, պատասխանը կլինի D: նորածիններ։",C,laughter,C,laughter,C,laughter,E,հանդիպել նոր մարդկանց,,"Red, Green, Blue
+B) Red, Yellow, Blue
+C) Cyan, Magenta, Yellow
+D) Black, white, gray
+E) Primary, secondary, tertiary
+
+The correct answer is A) Red, Green, Blue.
+
+Now answer this:
+Question: Ի՞նչ են Հայաստանից արտադրվող մշակութային իրերը:
+Options:
+A) մանկատա. վերեմուծական. երաժշտական
+B) մանկատա. ներքաղաքական. երաժշտական
+C) հայկական. պողպատական. արբերաբարձական
+D) հայկական. այլևուսական. արբերաղձական
+E) քարեկամանկատա. մետաղաքական. երաժշտական",,"ծխելու կաթսա
+B) երջանկություն
+C) ծիծաղ
+D) նորածիններ
+E) հանդիպել նոր մարդկանց",E,հանդիպել նոր մարդկանց,,երջանկություն,,
+A handsome prince is a stock character common to what?,prince,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['england', 'fairy tale', 'castle', 'palace', 'court'], dtype=object)}",B,england,fairy tale,castle,palace,court,Գեղեցիկ արքայազնը ինչի՞ն է բնորոշ ֆոնդային կերպար:,անգլիա,հեքիաթ,ամրոց,պալատ,դատարան,B) fairy tale,B) հեքիաթ,B) fairy tale,C) ամրոց,B) fairy tale,C) ամրոց,D) պալատ,C) ամրոց,C) ամրոց,B,fairy tale,B,fairy tale,B,fairy tale,B,հեքիաթ,C,ամրոց,C,ամրոց,D,պալատ,C,ամրոց,C,ամրոց
+What covers the largest percentage of the pacific northwest?,pacific northwest,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['united states', 'united states', 'washington', 'oregon',
+       'british columbia'], dtype=object)}",B,united states,united states,washington,oregon,british columbia,Ի՞նչն է ընդգրկում խաղաղօվկիանոսյան հյուսիս-արևմուտքի ամենամեծ տոկոսը:,Միացյալ Նահանգներ,Միացյալ Նահանգներ,Վաշինգտոն,օրեգոն,Բրիտանական Կոլումբիա,E) British Columbia,C) Վաշինգտոն,C) washington,A) Միացյալ Նահանգներ,C) washington,A) Միացյալ Նահանգներ,D) օրեգոն,C,C) Վաշինգտոն,E,British Columbia,C,washington,C,washington,C,Վաշինգտոն,A,Միացյալ Նահանգներ,A,Միացյալ Նահանգներ,D,օրեգոն,C,,C,Վաշինգտոն
+When black and white balls are kicked with feet what is being played?,balls,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['sporting event', 'gym', 'toy store', 'baseball', 'soccer game'],
+      dtype=object)}",E,sporting event,gym,toy store,baseball,soccer game,"Երբ ոտքերով խփում են սև ու սպիտակ գնդակներին, ի՞նչ է խաղում:",մարզական միջոցառում,մարզասրահ,խաղալիքների ԽԱՆՈՒԹ,բեյսբոլ,ֆուտբոլային խաղ,E) soccer game,E) ֆուտբոլային խաղ,E) soccer game,"Հարց: Երբ ոտքերով խփում են սև ու սպիտակ գնդակներին, ի՞նչ է խաղում:
+Տարբերակներ:
+A) մարզական միջոցառում
+B) մարզասրահ
+C) խաղալիքների ԽԱՆՈՒԹ
+D) բեյսբոլ
+E) ֆուտբոլային խաղ",E) soccer game,C) խաղալիքների ԽԱՆՈՒԹ,B) մարզասրահ,A,B) մարզասրահ,E,soccer game,E,soccer game,E,soccer game,E,ֆուտբոլային խաղ,,"մարզական միջոցառում
+B) մարզասրահ
+C) խաղալիքների ԽԱՆՈՒԹ
+D) բեյսբոլ
+E) ֆուտբոլային խաղ",C,խաղալիքների ԽԱՆՈՒԹ,B,մարզասրահ,A,,B,մարզասրահ
+"A snake is not something you want to come across on a plane, but it's most likely to happen while out in mother what?",snake,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['nature', 'pet shop', 'georgia', 'tropical forest', 'france'],
+      dtype=object)}",A,nature,pet shop,georgia,tropical forest,france,"Օձն այն չէ, ինչի հետ դուք կցանկանայիք հանդիպել ինքնաթիռում, բայց ամենայն հավանականությամբ, դա տեղի կունենա մայրիկի մեջ գտնվելու ժամանակ:",բնությունը,Տնային կենդանիների խանութ,Վրաստան,արեւադարձային անտառ,Ֆրանսիան,A) nature,D) արեւադարձային անտառ,A) nature,"Հարց: Օձն այն չէ, ինչի հետ դուք կցանկանայիք հանդիպել ինքնաթիռում, բայց ամենայն հավանականությամբ, դա տեղի կունենա մայրիկի մեջ գտնվելու ժամանակ:
+Ընտրեք ամենակարեւելային անտառներից մեկը։
+
+A) բնությունը
+B) Տնային կենդանիների խանութ
+C) Վրաստան
+D) արեւադարձային անտառ
+E) Ֆրանսիան",A) nature,"Q: Օձն այն չէ, ինչի հետ դուք կցանկանայիք հանդիպել ինքնաթիռում, բայց ամենայն հավանականությամբ, դա տեղի կունենա մայրիկի մեջ գտնվելու ժամանակ:
+Options:
+A) բնությունը
+B) Տնային կենդանիների խանութ
+C) Վրաստան
+D) արեւադարձային անտառ
+E) Ֆրանսիան","դուք պարզապես պետք է ունենաք այս հարցում լինելու նախապատրաստում այլ քիչ ավելի բացարձակցված ու նորակոչիներին հետ անխատում։ 
+դասակարգիչը գործում է անհրաժեշտ գործված գրադարանը։ օրինակ՝:
+
+  if option == 'A':
+      print('Դուք ընտրեցիք A-ի տարբերակը')
+
+  elif option == 'B':
+      print('Դուք ընտրեցիք B-ի տարբերակը')
+
+  elif option == 'C':
+      print('Դուք ընտրեցիք C-ի տարբերակը')
+
+  elif option == 'D':
+      print('Դուք ընտրեցիք D-ի տարբերակը')
+
+  elif option == 'E':
+      print('Դուք ընտրեցիք E-ի տարբերակը')
+
+  else:
+      print('Ընտրված տարբերակը սխալ է')
+
+Տեղադրելուց։ 
+
+Տեսանելուց։ 
+Անցնելուց։",A) բնությունը,"A
+
+բնությունը",A,nature,A,nature,A,nature,D,արեւադարձային անտառ,,"բնությունը
+B) Տնային կենդանիների խանութ
+C) Վրաստան
+D) արեւադարձային անտառ
+E) Ֆրանսիան",,"բնությունը
+B) Տնային կենդանիների խանութ
+C) Վրաստան
+D) արեւադարձային անտառ
+E) Ֆրանսիան",,"elif option == 'B':
+      print('Դուք ընտրեցիք B-ի տարբերակը')
+
+  elif option == 'C':
+      print('Դուք ընտրեցիք C-ի տարբերակը')
+
+  elif option == 'D':
+      print('Դուք ընտրեցիք D-ի տարբերակը')
+
+  elif option == 'E':
+      print('Դուք ընտրեցիք E-ի տարբերակը')
+
+  else:
+      print('Ընտրված տարբերակը սխալ է')
+
+Տեղադրելուց։ 
+
+Տեսանելուց։ 
+Անցնելուց։",A,բնությունը,,
+"If someone had been smoking, an easy way to tell would be if they were what?",smoking,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['inhale', 'unhealthy', 'a chimney', 'go outside', 'coughing'],
+      dtype=object)}",E,inhale,unhealthy,a chimney,go outside,coughing,"Եթե ​​ինչ-որ մեկը ծխող լիներ, ապա պարզելու հեշտ միջոցը կլիներ, եթե նա ինչ լիներ:",ներշնչել,անառողջ,մի ծխնելույզ,գնա դուրս,● Հազալը,E) coughing,C) մի ծխնելույզ,C) a chimney,A) ներշնչել,C) a chimney,E) ● Հազալը,A) ներշնչել,A) Ներշնչել,C) մի ծխնելույզ,E,coughing,C,a chimney,C,a chimney,C,մի ծխնելույզ,A,ներշնչել,E,● Հազալը,A,ներշնչել,A,Ներշնչել,C,մի ծխնելույզ
+Billy was smart but inexperienced.  In many ways he was what?,smart,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['garish', 'bright', 'ignorant', 'make invisible', 'backward'],
+      dtype=object)}",C,garish,bright,ignorant,make invisible,backward,"Բիլլին խելացի էր, բայց անփորձ։ Ինչ էր նա շատ առումներով:",շքեղ,պայծառ,անգրագետ,անտեսանելի դարձնել,հետամնաց,C) ignorant,C) անգրագետ,C) ignorant,"Հարցի կամայական պատասխանը կարող է լինել ""շքեղ"", ""պայծառ"", ""անգրագետ"", ""անտեսանելի դարձնել"" կամ ""հետամնաց"":
+A",C) ignorant,"Հարց. Բիլլին խելացի էր, բայց անփորձ։ Ինչ էր նա շատ առումներով:
+Տարբերակներ.
+A) շքեղ
+B) պայծառ
+C) անգրագետ
+D) անտեսանելի դարձնել
+E) հետամնաց",C) անգրագետ,"Տարբերակները:
+A) շքեղ
+B) պայծառ
+C) անգրագետ
+D) անտեսանելի դարձնել
+E) հետամնաց
+
+A",C) անգրագետ,C,ignorant,C,ignorant,C,ignorant,C,անգրագետ,,,,"շքեղ
+B) պայծառ
+C) անգրագետ
+D) անտեսանելի դարձնել
+E) հետամնաց",C,անգրագետ,,"շքեղ
+B) պայծառ
+C) անգրագետ
+D) անտեսանելի դարձնել
+E) հետամնաց
+
+A",C,անգրագետ
+Where can someone find a shiny advertisement?,advertisement,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['magazine', 'email', 'store', 'bus', 'closet'], dtype=object)}",A,magazine,email,store,bus,closet,Որտե՞ղ կարող է ինչ-որ մեկը գտնել փայլուն գովազդ:,ամսագիր,էլ,խանութ,ավտոբուս,պահարան,A) magazine,C) խանութ,D) bus,E) պահարան,A) magazine,A) ամսագիր,A) ամսագիր,C,Տարբերակ D) ավտոբուսը գտնել է փայլուն գովազդ։,A,magazine,D,bus,A,magazine,C,խանութ,E,պահարան,A,ամսագիր,A,ամսագիր,C,,,ավտոբուսը գտնել է փայլուն գովազդ։
+The only thing left of the ancient giants lizards are fossils and what?,lizards,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['four legs', 'sex to produce offspring', 'pictures', 'bones',
+       'tail'], dtype=object)}",D,four legs,sex to produce offspring,pictures,bones,tail,Հնագույն հսկա մողեսներից մնացել են միայն բրածոները և ի՞նչ։,չորս ոտք,սեռը սերունդ տալու համար,նկարներ,ոսկորներ,պոչը,D) bones,E) պոչը,D) bones,"Հարց: Հնագույն հսկա մողեսներից մնացել են միայն բրածոները և ի՞նչ։
+Տարբերակներ:
+A) Չորս ոտք
+B) Սեռը սերունդ տալու համար
+C) Նկարներ
+D) Ոսկորներ
+E) Պոչը",D) bones,A) չորս ոտք,"Ես կընտրեմ պատասխանը 'C' տարբերակի տառը, արդեն իմացա՞կցված է՝ իրականում 'C' տարբերակն է համարվում՝ նկարների մեկը։","Պատասխանը պետք է լինի 'D' տառը, քանի որ գույնական տեսքով և Պոչած եղելուց առաջ մարդկանց հարգանքները վերում են արտադրվում վաճառքի ամենամեծ մասը։",D) ոսկորներ,D,bones,D,bones,D,bones,E,պոչը,,"Չորս ոտք
+B) Սեռը սերունդ տալու համար
+C) Նկարներ
+D) Ոսկորներ
+E) Պոչը",A,չորս ոտք,,,,,D,ոսկորներ
+"He sat down at the table to play poker, to join the hand he had to what?",play poker,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['losing money', 'drink', 'bet money', 'concentrate', 'ante up'],
+      dtype=object)}",E,losing money,drink,bet money,concentrate,ante up,"Նա նստեց սեղանի մոտ պոկեր խաղալու, ձեռքը միացնելու ինչի՞ն:",գումար կորցնելը,խմել,խաղադրույք գումար,կենտրոնանալ,ante up,E) ante up,A) գումար կորցնելը,C) bet money,A) գումար կորցնելը,C) bet money,D) կենտրոնանալ,C) խաղադրույք գումար,B) խմել,C) խաղադրույք գումար,E,ante up,C,bet money,C,bet money,A,գումար կորցնելը,A,գումար կորցնելը,D,կենտրոնանալ,C,խաղադրույք գումար,B,խմել,C,խաղադրույք գումար
+Becoming inebriated leads to what state?,becoming inebriated,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['regret', 'drunkenness', 'high energy', 'paralysis', 'arrest'],
+      dtype=object)}",B,regret,drunkenness,high energy,paralysis,arrest,Ի՞նչ վիճակի է հանգեցնում հարբած լինելը։,ափսոսանք,հարբեցողություն,բարձր էներգիա,կաթվածահարություն,ձերբակալություն,B) drunkenness,B) հարբեցողություն,B) drunkenness,Պահանջվող պատասխանը կամայական է։,B) drunkenness,"Q: Ի՞նչ վիճակի է հանգեցնում հարբած լինելը։
+Options:
+A) ափսոսանք
+B) հարբեցողություն
+C) բարձր էներգիա
+D) կաթվածահարություն
+E) ձերբակալություն",C) բարձր էներգիա,Պատասխանն էլ կլինի B) հարբեցողություն,B) հարբեցողություն,B,drunkenness,B,drunkenness,B,drunkenness,B,հարբեցողություն,,,,"ափսոսանք
+B) հարբեցողություն
+C) բարձր էներգիա
+D) կաթվածահարություն
+E) ձերբակալություն",C,բարձր էներգիա,,հարբեցողություն,B,հարբեցողություն
+"Luke was a human. Like most humans, he learned from his parents.  He was mortal, but he could preserve himself by doing what?",human,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['ocean', 'write', 'smile', 'die', 'think critically'], dtype=object)}",B,ocean,write,smile,die,think critically,"Ղուկասը մարդ էր։ Մարդկանց մեծամասնության նման, նա սովորեց իր ծնողներից։ Նա մահկանացու էր, բայց ինչո՞վ կարող էր իրեն պահպանել:",օվկիանոս,գրել,ժպտալ,մեռնել,քննադատաբար մտածել,C) smile,D) մեռնել,D) die,A) օվկիանոս,D,A) օվկիանոս,E) քննադատաբար մտածել,A) օվկիանոս,A) օվկիանոս,C,smile,D,die,D,,D,մեռնել,A,օվկիանոս,A,օվկիանոս,E,քննադատաբար մտածել,A,օվկիանոս,A,օվկիանոս
+Sarah loved riding horse but she was having pain in his legs because of it. She was experiencing what sesation?,riding horse,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bouncing', 'shaky', 'fear', 'movement', 'stiffness'], dtype=object)}",E,bouncing,shaky,fear,movement,stiffness,"Սառան սիրում էր ձի վարել, բայց դրա պատճառով նրա ոտքերը ցավում էին: Ի՞նչ սենսացիա էր նա զգում:",ցատկող,երերուն,վախ,շարժում,կոշտություն,E) stiffness,D) շարժում,E) stiffness,D) շարժում,E) stiffness,B) երերուն,"Լավ, ես ընտրում եմ B) երերուն տարբերակը։","Q: Որտե՞ղ է Տիգրանես Հոլովկանյանը ծավալում տապալը։
+
+A. Ռուսաստան
+B. Հնդկաստան
+C. Իրան
+D. Տաջիկստան
+E. Չեղասպանություն",B) երերուն,E,stiffness,E,stiffness,E,stiffness,D,շարժում,D,շարժում,B,երերուն,,երերուն տարբերակը։,,,B,երերուն
+"She could wait for her new terrace to be covered in green next year, it was the final piece of her dream what?",terrace,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['garden', 'yard', 'southern europe', 'rice paddy', 'house'],
+      dtype=object)}",A,garden,yard,southern europe,rice paddy,house,"Նա կարող էր սպասել, որ հաջորդ տարի իր նոր պատշգամբը կանաչապատվի, դա իր երազանքի վերջին կտորն էր:",այգի,բակ,հարավային Եվրոպա,բրնձի բրինձ,տուն,A) garden,A) այգի,A) garden,A) այգի,A) garden,C) հարավային Եվրոպա,"Ես ընտրում եմ 'A' տարբերակը, որը նշում է այգին:",Դատասխանը պետք է լինի B) բակ,"A
+
+վելը։",A,garden,A,garden,A,garden,A,այգի,A,այգի,C,հարավային Եվրոպա,,,,բակ,,
+"From state to state gardeners appreciate the bee, it is a popular pollinator where?",bee,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['united states', 'apiary', 'michigan', 'trees', 'field of flowers'],
+      dtype=object)}",A,united states,apiary,michigan,trees,field of flowers,"Պետությունից մինչև նահանգ այգեպանները գնահատում են մեղուն, այն հայտնի փոշոտող է, որտեղ:",Միացյալ Նահանգներ,մեղվանոց,Միչիգան,ծառեր,ծաղիկների դաշտ,E) field of flowers,B) մեղվանոց,B) apiary,D) ծառեր,B) apiary,A) Միացյալ Նահանգներ,Ես կընտրեմ B) մեղվանոց,B) մեղվանոց,B) մեղվանոց,E,field of flowers,B,apiary,B,apiary,B,մեղվանոց,D,ծառեր,A,Միացյալ Նահանգներ,,մեղվանոց,B,մեղվանոց,B,մեղվանոց
+Many prison movies take place at what famous prison?,prison,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['forest', 'city', 'countryside', 'america', 'alcatraz'],
+      dtype=object)}",E,forest,city,countryside,america,alcatraz,Ո՞ր հայտնի բանտում են տեղի ունենում բազմաթիվ բանտային ֆիլմեր:,անտառ,քաղաք,գյուղամերձ,Ամերիկա,ալկատրաս,E) Alcatraz,D) Ամերիկա,E) Alcatraz,A) անտառ,E) Alcatraz,D) Ամերիկա,B) քաղաք,The answer is D) Ամերիկա,B) քաղաք,E,Alcatraz,E,Alcatraz,E,Alcatraz,D,Ամերիկա,A,անտառ,D,Ամերիկա,B,քաղաք,,Ամերիկա,B,քաղաք
+"The lizard lived at the base of the ancient longest wall, what country did it likely live in?",lizard,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['forrest', 'desert', 'tropics', 'china', 'garden'], dtype=object)}",D,forrest,desert,tropics,china,garden,"Մողեսն ապրել է հնագույն ամենաերկար պարսպի հիմքում, ո՞ր երկրում է այն հավանաբար ապրել:",անտառ,անապատ,արեւադարձային շրջաններ,Չինաստան,այգի,D) China,D) Չինաստան,D) China,D) Չինաստան,D,"Q: Մողեսն ապրել է հնագույն ամենաերկար պարսպի հիմքում, ո՞ր երկրում է այն հավանաբար ապրել:
+Options:
+A) անտառ
+B) անապատ
+C) արեւադարձային շրջաններ
+D) Չինաստան
+E) այգի",A) անտառ,The answer is D) Չինաստան,B) անապատ,D,China,D,China,D,,D,Չինաստան,D,Չինաստան,,"անտառ
+B) անապատ
+C) արեւադարձային շրջաններ
+D) Չինաստան
+E) այգի",A,անտառ,,Չինաստան,B,անապատ
+Where might someone go to watch a flute?,flute,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['park', 'symphony', 'orchestra', 'music shop',
+       'musical instrument store'], dtype=object)}",B,park,symphony,orchestra,music shop,musical instrument store,Որտե՞ղ կարող է ինչ-որ մեկը գնալ ֆլեյտա դիտելու:,այգի,սիմֆոնիա,նվագախումբ,երաժշտական ​​խանութ,երաժշտական ​​գործիքների խանութ,B) symphony,A) այգի,B) symphony,A) այգի,C) orchestra,C) նվագախումբ,C) նվագախումբ,Վերջին հարցում՝ ամենահամապատասխան տարբերակը 'B' է:,C) նվագախումբ,B,symphony,B,symphony,C,orchestra,A,այգի,A,այգի,C,նվագախումբ,C,նվագախումբ,,,C,նվագախումբ
+"Family is always the best for devotion, but it is also nice if a person has what?",person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['good review', 'headache', 'with cat', 'loyal friends', 'shoes'],
+      dtype=object)}",D,good review,headache,with cat,loyal friends,shoes,"Ընտանիքը միշտ լավագույնն է նվիրվածության համար, բայց նաև հաճելի է, եթե մարդն ի՞նչ ունի:",լավ ակնարկ,գլխացավ,կատվի հետ,հավատարիմ ընկերներ,կոշիկներ,D) loyal friends,A) լավ ակնարկ,D) loyal friends,A) լավ ակնարկ,D) loyal friends,A) լավ ակնարկ,Ես մտածեցի՝ Ե) քրոջերը:,A) լավ ակնարկ,C) կատվի հետ,D,loyal friends,D,loyal friends,D,loyal friends,A,լավ ակնարկ,A,լավ ակնարկ,A,լավ ակնարկ,,քրոջերը:,A,լավ ակնարկ,C,կատվի հետ
+Where would you put a marker if you plan to use it soon at the same location?,marker,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array([""child's backpack"", 'desk', 'pocket', 'office supply store',
+       'briefcase'], dtype=object)}",B,child's backpack,desk,pocket,office supply store,briefcase,"Որտե՞ղ կդնեիք մարկեր, եթե նախատեսում եք այն շուտով օգտագործել նույն վայրում:",մանկական ուսապարկ,գրասեղան,գրպան,գրասենյակային պարագաների խանութ,թղթապանակ,C) pocket,B) գրասեղան,B) desk,Գրասենյակային պարագաների խանութ (ինչպես տարբերակումը պարագաները առաջևանում են),B) desk,A) մանկական ուսապարկ,"Բոլոր տարբերակներին 'C' տառը ներկայացնելով քո դատողության վրա, կտամ գրպան ուսուցիչին։",Տարբերակ B) գրասեղան,C) գրպան,C,pocket,B,desk,B,desk,B,գրասեղան,,,A,մանկական ուսապարկ,,,,գրասեղան,C,գրպան
+He kept a container can for draining oil in what location of the house?,container can,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['liquid', 'store', 'garage', 'pantry', 'gutter'], dtype=object)}",C,liquid,store,garage,pantry,gutter,Տան ո՞ր վայրում նա պահում էր յուղը թափելու համար նախատեսված տարա:,հեղուկ,խանութ,ավտոտնակ,մառան,հեղեղատար,C) garage,D) մառան,C) garage,"Հարց: Տան ո՞ր վայրում նա պահում էր յուղը թափելու համար նախատեսված տարա:
+Տարբերակներ:
+A) հեղուկ
+B) խանութ
+C) ավտոտնակ
+D) մառան
+E) հեղեղատար",C) garage,"Q: Տան ո՞ր վայրում նա պահում էր յուղը թափելու համար նախատեսված տարա:
+Options:
+A) հեղուկ
+B) խանութ
+C) ավտոտնակ
+D) մառան
+E) հեղեղատար","Անալեզուն ինրողական գումարներին տարտանեցնելու համար, նույնպես ավտոտնականությունը ստեղծվել է։ Պետք է ընտրես 'C' տարբերակը։","Q: Տան ո՞ր վայրում նա պահում էր յուղը թափելու համար նախատեսված տարա:
+Պատասխան: B) խանութ",C) ավտոտնակ,C,garage,C,garage,C,garage,D,մառան,,"հեղուկ
+B) խանութ
+C) ավտոտնակ
+D) մառան
+E) հեղեղատար",,"հեղուկ
+B) խանութ
+C) ավտոտնակ
+D) մառան
+E) հեղեղատար",,,,խանութ,C,ավտոտնակ
+What do humans have that cerberus does not have?,humans,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['one head', 'two ears', 'lay eggs', '3 legs', 'two feet'],
+      dtype=object)}",A,one head,two ears,lay eggs,3 legs,two feet,"Ի՞նչ ունեն մարդիկ, որոնք չունեն ցերբերուսը:",մեկ գլուխ,երկու ականջ,ձու դնել,3 ոտք,երկու ոտնաչափ,A) one head,A) Մեկ գլուխ,A) one head,"Հարց: Ի՞նչ ունեն մարդիկ, որոնք չունեն ցերբերուսը:
+Տարբերակներ:
+A) մեկ գլուխ
+B) երկու ականջ
+C) ձու դնել
+D) 3 ոտք
+E) երկու ոտնաչափ",A) one head,"Q: Ի՞նչ ունեն մարդիկ, որոնք չունեն ցերբերուսը:
+Options:
+A) մեկ գլուխ
+B) երկու ականջ
+C) ձու դնել
+D) 3 ոտք
+E) երկու ոտնաչափ","Հրանտակեք, դատարանային թույլտվությունը միացնելով ցերեկվորը։","Example:
+Հարց: Երբ փողոցական երկրորդը գնում է գույքերով լուսացույցի մեջ, վայրից որտեղից կպետք է առաջինը հասնել նրանց։
+Տարբերակներ:
+A) Իսկապես
+B) Հյուսիսային
+C) Արեգական
+D) Արևելային
+E) Արևմուտքային
+D
+Հաջորդ հարցը: Երբ գուցե ես ծաղիկներով գնվեք, որտեղից եք հասնում գլխուներին։
+Տարբերակներ:
+A) Ծառով
+B) կոպակողանիշով
+C) Քամիչով
+D) Թափային գոգոգակողանիշով
+E) Կասետիկոյով",C,A,one head,A,one head,A,one head,A,Մեկ գլուխ,,"մեկ գլուխ
+B) երկու ականջ
+C) ձու դնել
+D) 3 ոտք
+E) երկու ոտնաչափ",,"մեկ գլուխ
+B) երկու ականջ
+C) ձու դնել
+D) 3 ոտք
+E) երկու ոտնաչափ",,,,"Իսկապես
+B) Հյուսիսային
+C) Արեգական
+D) Արևելային
+E) Արևմուտքային
+D
+Հաջորդ հարցը: Երբ գուցե ես ծաղիկներով գնվեք, որտեղից եք հասնում գլխուներին։
+Տարբերակներ:
+A) Ծառով
+B) կոպակողանիշով
+C) Քամիչով
+D) Թափային գոգոգակողանիշով
+E) Կասետիկոյով",C,
+"Danny was studying statistics in class, and he something disturbing about driving.   It causes a significant number of what?",driving,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['deaths', 'moving', 'car wrecks', 'using gas', 'may die'],
+      dtype=object)}",A,deaths,moving,car wrecks,using gas,may die,"Դեննին դասի ժամանակ վիճակագրություն էր ուսումնասիրում, և նա ինչ-որ անհանգստացնող բան էր վարում: Ինչի՞ զգալի քանակություն է առաջացնում:",մահվան դեպքեր | մահացություններ,շարժվող,մեքենաների բեկորներ,գազ օգտագործելով,կարող է մահանալ,C) car wrecks,E) կարող է մահանալ,A) deaths,A) մահվան դեպքեր | մահացություններ,A) deaths,E) կարող է մահանալ,C) Մեքենաների բեկորներ,Պատասխանը կարող է լինել C) մեքենաների բերում:,B) շարժվող,C,car wrecks,A,deaths,A,deaths,E,կարող է մահանալ,A,մահվան դեպքեր | մահացություններ,E,կարող է մահանալ,C,Մեքենաների բեկորներ,,մեքենաների բերում:,B,շարժվող
+The video game featured an anger bar that you charged up to more easily do what?,anger,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['illustrate point', 'destroy enemy', 'cool off', 'write letter',
+       'get drunk'], dtype=object)}",B,illustrate point,destroy enemy,cool off,write letter,get drunk,"Տեսախաղը ցուցադրում էր զայրույթի սանդղակը, որը դուք լիցքավորեցիք, որպեսզի ավելի հեշտությամբ ի՞նչ անեք:",լուսաբանել կետը,ոչնչացնել թշնամուն,զովանալ,նամակ գրել,հարբել,B) destroy enemy,C) զովանալ,B) destroy enemy,"Տեսախաղը ցուցադրում էր զայրույթի սանդղակը, որը դուք լիցքավորեցիք, որպեսզի ավելի հեշտությամբ ի՞նչ անեք:
+Options:
+A) տանել պոկեմոն
+B) գցել ցույց
+C) զովանալ
+D) հետ գֆիրլանդ նետեքքայում
+E) ֆերմոնային ձեռագրել",B) destroy enemy,A) լուսաբանել կետը,D) նամակ գրել,A) լուսաբանել կետը,C) զովանալ,B,destroy enemy,B,destroy enemy,B,destroy enemy,C,զովանալ,,"տանել պոկեմոն
+B) գցել ցույց
+C) զովանալ
+D) հետ գֆիրլանդ նետեքքայում
+E) ֆերմոնային ձեռագրել",A,լուսաբանել կետը,D,նամակ գրել,A,լուսաբանել կետը,C,զովանալ
+Where would you use a changing room before gym?,changing room,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['gym', 'clothing store', ""change baby's diaper"",
+       'department store', 'schools'], dtype=object)}",E,gym,clothing store,change baby's diaper,department store,schools,Որտե՞ղ կօգտագործեիք հանդերձարան մարզասրահից առաջ:,մարզասրահ,հագուստի խանութ,փոխել երեխայի տակդիրը,հանրախանութ,դպրոցները,A) gym,A) մարզասրահ,B) clothing store,"Հարց: Որտե՞ղ կօգտագործեիք հանդերձարան մարզասրահից առաջ:
+Տարբերակներ:
+A) մարզասրահ
+B) հագուստի խանութ
+C) փոխել երեխայի տակդիրը
+D) հանրախանութ
+E) դպրոցները",B,A) մարզասրահ,Կեղծ պարգրություններ (իմացած նույնպես որոշումներից կախված թվարկումներով):,B,Հանդերձարան օգտագործելու համար մեզ պետք է օգտագործել հանրախանությունը (D)։,A,gym,B,clothing store,B,,A,մարզասրահ,,"մարզասրահ
+B) հագուստի խանութ
+C) փոխել երեխայի տակդիրը
+D) հանրախանութ
+E) դպրոցները",A,մարզասրահ,,:,B,,,։
+The bird took flight by moving its what?,bird,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['two legs', 'feathers', 'entertain yourself', 'head', 'two wings'],
+      dtype=object)}",E,two legs,feathers,entertain yourself,head,two wings,Թռչունը թռավ՝ շարժելով իր ի՞նչ:,երկու ոտք,փետուրներ,զվարճացնել ինքներդ,գլուխ,երկու թեւեր,E) two wings,D) գլուխ,B) feathers,A) երկու ոտք,B) feathers,"Q: Թռչունը թռավ՝ շարժելով իր ի՞նչ:
+
+Options:
+A) երկու ոտք
+B) փետուրներ
+C) զվարճացնել ինքներդ
+D) գլուխ
+E) երկու թեւեր",A) երկու ոտք,A) երկու ոտք,B) փետուրներ,E,two wings,B,feathers,B,feathers,D,գլուխ,A,երկու ոտք,,"երկու ոտք
+B) փետուրներ
+C) զվարճացնել ինքներդ
+D) գլուխ
+E) երկու թեւեր",A,երկու ոտք,A,երկու ոտք,B,փետուրներ
+A human wants to go shopping in a dense urban area.  Where might be a good place for a person to go shopping?,human,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['detroit', 'elevator', 'workplace', 'downtown', 'mall'],
+      dtype=object)}",D,detroit,elevator,workplace,downtown,mall,Մարդը ցանկանում է գնումներ կատարել խիտ քաղաքային տարածքում: Որտե՞ղ կարող է լավ տեղ լինել մարդու համար գնումներ կատարելու համար:,դետրոյթ,վերելակ,աշխատավայր,քաղաքի կենտրոնում,մոլ,D) downtown,C) աշխատավայր,D) downtown,A) դետրոյթ,D) downtown,C) աշխատավայր,A) դետրոյթ,Պատասխանը ՝ B)'վերելակ' է։,C) աշխատավայր,D,downtown,D,downtown,D,downtown,C,աշխատավայր,A,դետրոյթ,C,աշխատավայր,A,դետրոյթ,,'վերելակ' է։,C,աշխատավայր
+"It could have been a beautiful day, but what did the overcast sky do to the color?",beautiful,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bee utiful', 'ugly', 'dull', 'plain', 'wet'], dtype=object)}",C,bee utiful,ugly,dull,plain,wet,"Կարող էր գեղեցիկ օր լինել, բայց ի՞նչ արեց ամպամած երկինքը գույնի հետ։",bee օգտակար,տգեղ,ձանձրալի,պարզ,թաց,C) dull,D) պարզ,C) dull,"Հարցը հարկավորին բավարարապես տեսնում է այն ի՞նչ արեց ամպամած երկինքը գույնի հետ։ Մինչդեռ չես տվյալներից որոշման չունենալ, դուրս գրված այլ կարգով հարկավորին պետք է գումարես։ Այսինքն, ազդեցություններից առաջինը (A) և երկրորդը (B) չեն ճիշտ պատասխաններն են, ուստի թվարկեք հարկավարելու կարևորագույն գույնը։",C) dull,C) ձանձրալի,"Երբ ամենահամապատասխան տարբերակը երբեք չի կազմում պատասխանի մասին տեղեկություն, դուք կարող եք ընդունել ""E"" պատասխանը, որ նշանակում է, որ քո դատարանը ընտրում է այլ տարբերակը։",A) bee օգտակար,C) ձանձրալի,C,dull,C,dull,C,dull,D,պարզ,,"և երկրորդը (B) չեն ճիշտ պատասխաններն են, ուստի թվարկեք հարկավարելու կարևորագույն գույնը։",C,ձանձրալի,,,A,bee օգտակար,C,ձանձրալի
+Where will any tearoom be?,tearoom,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['building', 'london', 'england', 'boston ship harbor',
+       'restaurant'], dtype=object)}",A,building,london,england,boston ship harbor,restaurant,Որտեղ կլինի ցանկացած թեյարան:,շինություն,Լոնդոն,անգլիա,Բոստոնի նավահանգիստ,ռեստորան,E) restaurant,E) ռեստորան,A) building,Լոնդոն,A) building,A) շինություն,"Դուք կարող եք ընտրել հետևյալ տարբերակներից՝
+
+A) շինություն
+B) Լոնդոն
+C) անգլիա
+D) Բոստոնի նավահանգիստ
+E) ռեստորան","Պատասխանը կազմված է 'B' տառից, որը ունի ասորված հիմանով:",D) Բոստոնի նավահանգիստ,E,restaurant,A,building,A,building,E,ռեստորան,,,A,շինություն,,"շինություն
+B) Լոնդոն
+C) անգլիա
+D) Բոստոնի նավահանգիստ
+E) ռեստորան",,,D,Բոստոնի նավահանգիստ
+"If you are deep in a cave, what would you follow to find your way out?",deep,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['deepfelt', 'light', 'high', 'frivolous', 'mountain'], dtype=object)}",B,deepfelt,light,high,frivolous,mountain,"Եթե ​​դուք գտնվում եք քարանձավի խորքում, ինչի՞ կհետևեիք՝ ելք գտնելու համար:",խորը զգացված,լույս,բարձր,անլուրջ,լեռ,B) light,E) լեռ,B) light,A) խորը զգացված,B) light,D) անլուրջ,"Եթե ​​դարձնենք, որ գնալը անում եք երկրաշարժման տերմինալի, լայնորեն հատուկ նշանակություն ունեցող պրոֆեսիոնալ թագուհին է։ A, Բ) Հուսարակալիների մեջ C, D) Քույր է դատարապետ",D,A,B,light,B,light,B,light,E,լեռ,A,խորը զգացված,D,անլուրջ,,"Հուսարակալիների մեջ C, D) Քույր է դատարապետ",D,,A,
+"When playing baseball they keep track of mistakes, this stat is called what?",playing baseball,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['happiness', 'sore muscles', 'injury', 'perfection', 'errors'],
+      dtype=object)}",E,happiness,sore muscles,injury,perfection,errors,"Բեյսբոլ խաղալիս նրանք հետևում են սխալներին, ի՞նչ է կոչվում այս վիճակագրությունը:",երջանկություն,ցավոտ մկաններ,վնասվածք,կատարելություն,սխալներ,E) errors,D) կատարելություն,D) perfection,Դ) կատարելություն,D) perfection,C) վնասվածք,B) ցավոտ մկաններ,"Երբ ցանկանում ես փողոցն ապահով անցնել լուսացույցի լույսի տակ, ո՞ր լույսին պետք է սպասել անցնելուց առաջ։ Առաջին պատասխանը բառարանի A տառով սկսվում է։",E) սխալներ,E,errors,D,perfection,D,perfection,D,կատարելություն,,կատարելություն,C,վնասվածք,B,ցավոտ մկաններ,,,E,սխալներ
+"When people want to watch a new move, the often go see it at the?",people,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['town', 'conference', 'bathroom', 'theater', 'train station'],
+      dtype=object)}",D,town,conference,bathroom,theater,train station,"Երբ մարդիկ ցանկանում են դիտել նոր քայլը, հաճախ են գնում տեսնել այն:",քաղաք,համաժողով,սանհանգույց,թատրոն,կայարան,D) theater,C) սանհանգույց,D) theater,A) քաղաք,D) theater,"Q: Երբ մարդիկ ցանկանում են դիտել նոր քայլը, հաճախ են գնում տեսնել այն:
+A) քաղաք
+B) համաժողով
+C) սանհանգույց
+D) թատրոն
+E) կայարան",A) քաղաք,A) քաղաք,B) համաժողով,D,theater,D,theater,D,theater,C,սանհանգույց,A,քաղաք,,"քաղաք
+B) համաժողով
+C) սանհանգույց
+D) թատրոն
+E) կայարան",A,քաղաք,A,քաղաք,B,համաժողով
+What is the goal of a poor person having food?,having food,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['digesting', 'being full', 'will not starve', 'survive',
+       'getting fat'], dtype=object)}",C,digesting,being full,will not starve,survive,getting fat,Ո՞րն է աղքատի կերակուր ունենալու նպատակը:,մարսող,լցված լինելը,սովից չի մեռնի,գոյատեւել,գիրանալը,D) survive,A) մարսող,D) survive,Դ) գոյատեւել,D) survive,"Q: Ո՞րն է աղքատի կերակուր ունենալու նպատակը:
+A) մարսող
+B) լցված լինելը
+C) սովից չի մեռնի
+D) գոյատեւել
+E) գիրանալը",D) գոյատեւել,A) Մարսող,B) լցված լինելը,D,survive,D,survive,D,survive,A,մարսող,,գոյատեւել,,"մարսող
+B) լցված լինելը
+C) սովից չի մեռնի
+D) գոյատեւել
+E) գիրանալը",D,գոյատեւել,A,Մարսող,B,լցված լինելը
+When james was climbing he experiences a couple of symptoms.  The most painful and long lasting was on his hands.   What  might have happened to him?,climbing,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['calluses', 'loss of oxygen', 'vertigo', 'ascending', 'blisters'],
+      dtype=object)}",E,calluses,loss of oxygen,vertigo,ascending,blisters,"Երբ Ջեյմսը բարձրանում էր, նա մի քանի ախտանիշ է զգում. Ամենացավալին ու երկարատևը նրա ձեռքերին էր։ Ի՞նչ կարող էր պատահել նրա հետ։",կոշտուկներ,թթվածնի կորուստ,գլխապտույտ,բարձրացող,բշտիկները,E) blisters,D) բարձրացող,A) calluses,"Փողոցն ապահով անցնելուց առաջ էլ պետք էր սպասել անցվելուց, ընթերցողները պատասխանվում են ո՞ր լույսին։",A) calluses,D) բարձրացող,C) գլխապտույտ,"Հարց: Երբ ցանկանում ես փողոցն ապահով անցնել լուսացույցի լույսի տակ, ո՞ր լույսին պետք է սպասել անցնելուց առաջ։
+
+Տարբերակներ:
+A) Կարմիր լույսին հետիոտների համար։
+B) Կանաչ լույսին հետիոտների համար։
+C) Դեղին լույսին մեքենաների համար։
+D) Կարմիր լուսին մեքենաների համար։
+E) Կանաչ լույսին մեքենաների համար։
+
+Պատասխանը պետք է լինի A",C) գլխապտույտ,E,blisters,A,calluses,A,calluses,D,բարձրացող,,,D,բարձրացող,C,գլխապտույտ,,"Կարմիր լույսին հետիոտների համար։
+B) Կանաչ լույսին հետիոտների համար։
+C) Դեղին լույսին մեքենաների համար։
+D) Կարմիր լուսին մեքենաների համար։
+E) Կանաչ լույսին մեքենաների համար։
+
+Պատասխանը պետք է լինի A",C,գլխապտույտ
+What do cats like to hug when they are peeking at birds?,cat,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['floor', 'ground', 'warm bed', 'sand box', 'window'], dtype=object)}",B,floor,ground,warm bed,sand box,window,"Ի՞նչ են սիրում գրկել կատուները, երբ նայում են թռչուններին:",հատակ,գետնին,տաք մահճակալ,ավազի տուփ,պատուհան,E) window,B) գետնին,E) window,A) հատակ,E) window,C) տաք մահճակալ,A) հատակ,Պատասխանը կազմված է 'C' տառից։,B) գետնին,E,window,E,window,E,window,B,գետնին,A,հատակ,C,տաք մահճակալ,A,հատակ,,,B,գետնին
+John spent too much money buying products for his swollen testicles.  He did so because he was feeling what?,buying products,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['pleasure', 'delight', 'bankruptcy', 'agony', 'owning'],
+      dtype=object)}",D,pleasure,delight,bankruptcy,agony,owning,"Ջոնը չափազանց մեծ գումար է ծախսել իր այտուցված ամորձիների համար ապրանքներ գնելու համար: Նա դա արեց, քանի որ ինչ էր զգում:",հաճույք,հրճվանք,սնանկություն,տառապանք,սեփականություն,D) agony,D) տառապանք,D) agony,"Հարց: Ջոնը չափազանց մեծ գումար է ծախսել իր այտուցված ամորձիների համար ապրանքներ գնելու համար: Նա դա արեց, քանի որ ինչ էր զգում։
+Տարբերակներ:
+A) գումարում
+B) հաշվարկում
+C) թափաստանում
+D) կրեցիներ
+E) գնանք",D) agony,B) հրճվանք,C) սնանկություն,"Ջոնը գումար է ծախսել իր այտուցված ամորձիների համար ապրանքներ գնելու համար, ընթացքում որոշակի բաների վրա և չի հաղթելու։ Սեփականությունն է՝ E",B) հրճվանք,D,agony,D,agony,D,agony,D,տառապանք,,"գումարում
+B) հաշվարկում
+C) թափաստանում
+D) կրեցիներ
+E) գնանք",B,հրճվանք,C,սնանկություն,,,B,հրճվանք
+"The small dog always picked up the newspaper from the driveway, where did the dog live?",small dog,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['nursing home', 'dog show', 'apart', 'suburb', 'own house'],
+      dtype=object)}",D,nursing home,dog show,apart,suburb,own house,"Փոքրիկ շունը միշտ թերթը վերցնում էր ճանապարհից, որտեղ էր ապրում շունը:",ծերանոց,շների ցուցադրություն,բացի,արվարձան,սեփական տուն,E) own house,B) շների ցուցադրություն,E) own house,"Հարց: Փոքրիկ շունը միշտ թերթը վերցնում էր ճանապարհից, որտեղ էր ապրում շունը:
+Տարբերակներ:
+A) նկարագրածը երեքը
+B) ծանոթացիներից մեկով
+C) բացատանիշը
+D) նշանակալը
+E) ընդհանիներից մեկով",D) suburb,C) բացի,A) ծերանոց,Հարցը պետք է լինի A) ծերանոցը,C) բացի,E,own house,E,own house,D,suburb,B,շների ցուցադրություն,,"նկարագրածը երեքը
+B) ծանոթացիներից մեկով
+C) բացատանիշը
+D) նշանակալը
+E) ընդհանիներից մեկով",C,բացի,A,ծերանոց,,ծերանոցը,C,բացի
+"The bachelor was too lazy to take the groceries out of the shopping bag, he just put the full bags right in his pantry what?",shopping bag,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['retail store', 'refrigerator', 'supermarket', 'car trunk',
+       'storage cabinet'], dtype=object)}",E,retail store,refrigerator,supermarket,car trunk,storage cabinet,"Ամուրին շատ ծույլ էր գնումների պայուսակից հանել մթերքները, նա ուղղակի լցրեց պայուսակները հենց իր մառանը:",մանրածախ խանութ,սառնարան,սուպերմարկետ,մեքենայի բեռնախցիկ,պահեստային պահարան,E) storage cabinet,B) սառնարան,E) storage cabinet,"Միայն սառնարանը կարող է պահանջվել, քանի որ մթերքները սպասում են ցանկացած համար ապահով գնումներից շուտ: Պայուսակները չեն պատրաստվում իրականացնելուց առաջ: Մեքենայի բեռնախցիկը չի հասանելի, մանրածախ խանութը չի ներկայացնում այլ պահուների հնարքից հետո, սուպերմարկետները չեն ունենարարվում ծույլ կրելու համար: Իսկ սառնարանում ամուրն հաճելի է աճելու մթերքները, հետապնդում առանց հետապնդումների: Այդ պատճառով, ամուրը սառնարանների մեջ է՝ գտնվելով ամբողջ գտավիկների և մթերքների հետ միասին: Այսպիսով, պայուսակը կարող է մտածել, թե ամուրը շատերորդ գնումների ժամանակ ապահով թոռնելուց հետո չէին մթերքները բացակայությեն: Ուրեմն, որպեսզի պատասխանատված լինենք հարցը, ամպերը վերբեռնելու ծանուցումը գումարեցինք: Բայց թոռնելուց հետո միայն սուպերմարկետները են ծախված և բաց են հանդեպ սառնարանից: Այսինքն, պայուսակից առաջինը և միայն ճիշտը պատասխանում է իրարից։",E) storage cabinet,"Հարց. Ամուրին շատ ծույլ էր գնումների պայուսակից հանել մթերքները, նա ուղղակի լցրեց պայուսակները հենց իր մառանը:
+
+Տարբերակներ.
+A) մանրածախ խանութ
+B) սառնարան
+C) սուպերմարկետ
+D) մեքենայի բեռնախցիկ
+E) պահեստային պահարան",A) մանրածախ խանութ,B) սառնարան,B) սառնարան,E,storage cabinet,E,storage cabinet,E,storage cabinet,B,սառնարան,,,,"մանրածախ խանութ
+B) սառնարան
+C) սուպերմարկետ
+D) մեքենայի բեռնախցիկ
+E) պահեստային պահարան",A,մանրածախ խանութ,B,սառնարան,B,սառնարան
+Behind what small door are canned goods usually kept in?,canned goods,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['cabinet', 'pantry', 'kitchen', 'cupboard', 'shelf'], dtype=object)}",D,cabinet,pantry,kitchen,cupboard,shelf,Ո՞ր փոքրիկ դռան հետևում են սովորաբար պահածոներ պահում:,կաբինետ,մառան,խոհանոց,պահարանը,դարակ,E) shelf,D) պահարանը,D) cupboard,"Q: Ո՞ր փոքրիկ դռան հետևում են սովորաբար պահածոներ պահում:
+
+A) կաբինետ
+B) մառան
+C) խոհանոց
+D) պահարանը
+E) դարակ",D) cupboard,"Q: Ո՞ր փոքրիկ դռան հետևում են սովորաբար պահածոներ պահում:
+Options:
+A) կաբինետ
+B) մառան
+C) խոհանոց
+D) պահարանը
+E) դարակ",C) խոհանոց,Պատասխանը պետք է լինի D) պահարանը,B,E,shelf,D,cupboard,D,cupboard,D,պահարանը,,"կաբինետ
+B) մառան
+C) խոհանոց
+D) պահարանը
+E) դարակ",,"կաբինետ
+B) մառան
+C) խոհանոց
+D) պահարանը
+E) դարակ",C,խոհանոց,,պահարանը,B,
+"Mary wasn't familiar with James, so she wasn't comfortable speaking with him. How might she come off?",familiar,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['cold', 'unfamiliar', 'unknown', 'unacquainted', 'shy'],
+      dtype=object)}",A,cold,unfamiliar,unknown,unacquainted,shy,"Մերին ծանոթ չէր Ջեյմսի հետ, ուստի հարմար չէր նրա հետ խոսել: Ինչպե՞ս կարող է նա դուրս գալ:",ցուրտ,անծանոթ,անհայտ,անծանոթ,ամաչկոտ,A) cold,D) անծանոթ,A) cold,"Since Mary was not familiar with James, it is logical that she did not talk to him. Therefore, the most suitable option would be B) անծանոթ (unfamiliar).",A) cold,"Q: Մերին ծանոթ չէր Ջեյմսի հետ, ուստի հարմար չէր նրա հետ խոսել: Ինչպե՞ս կարող է նա դուրս գալ:
+Options:
+A) ցուրտ
+B) անծանոթ
+C) անհայտ
+D) անծանոթ
+E) ամաչկոտ","Բարեւ, ձեր հարցը վստահ է։ Հրամանը այսպիսի կատարումն է՝ B) անծանոթ։",A) ցուրտ,E,A,cold,A,cold,A,cold,D,անծանոթ,,անծանոթ (unfamiliar).,,"ցուրտ
+B) անծանոթ
+C) անհայտ
+D) անծանոթ
+E) ամաչկոտ",,անծանոթ։,A,ցուրտ,E,
+"American humans just graduated high school, where are many of them bound?",humans,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['university', 'park', 'unemployment', 'cafe', 'movies'],
+      dtype=object)}",A,university,park,unemployment,cafe,movies,"Ամերիկացի մարդիկ նոր են ավարտել միջնակարգ դպրոցը, որտեղ են նրանցից շատերը կապված:",համալսարան,այգի,գործազրկություն,սրճարան,Ֆիլմեր,A) university,A) համալսարան,A) university,"Q: Ամերիկացի մարդիկ նոր են ավարտել միջնակարգ դպրոցը, որտեղ են նրանցից շատերը կապված:
+A) համալսարան
+B) այգի
+C) գործազրկություն
+D) սրճարան
+E) Ֆիլմեր",A) university,A) համալսարան,B) այգի,C,B) այգի,A,university,A,university,A,university,A,համալսարան,,"համալսարան
+B) այգի
+C) գործազրկություն
+D) սրճարան
+E) Ֆիլմեր",A,համալսարան,B,այգի,C,,B,այգի
+James was a weasel.  He lived in a warm place where he was surrounded by children.  Glass separated him from the  outside world.  He rested comfortably in his what?,weasel,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['law firm', 'zoo', 'classroom', 'forrest', 'terrarium'],
+      dtype=object)}",E,law firm,zoo,classroom,forrest,terrarium,"Ջեյմսը աքիս էր։ Նա ապրում էր տաք տեղում, որտեղ շրջապատված էր երեխաներով։ Ապակին նրան բաժանեց արտաքին աշխարհից։ Նա հարմարավետ հանգստացավ իր ինչի մեջ:",իրավաբանական ընկերություն,գազանանոց,դասարան,անտառ,տերարիում,E) terrarium,A) իրավաբանական ընկերություն,B) zoo,Բ,E) terrarium,D) անտառ,A) իրավաբանական ընկերություն,Պատասխանը պետք է լինի B) գազանանոց,E,E,terrarium,B,zoo,E,terrarium,A,իրավաբանական ընկերություն,,,D,անտառ,A,իրավաբանական ընկերություն,,գազանանոց,E,
+Where is known to always have snow?,snow,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['africa', 'north pole', 'roof', 'canada', 'surface of earth'],
+      dtype=object)}",B,africa,north pole,roof,canada,surface of earth,"Որտեղ է հայտնի, որ միշտ ձյուն է գալիս:",աֆրիկան,Հյուսիսային բեւեռ,տանիքը,Կանադա,երկրի մակերեսը,B) north pole,C) տանիքը,D) canada,"Q: Որտեղ է հայտնի, որ միշտ ձյուն է գալիս?
+Options:
+A) աֆրիկան
+B) Հյուսիսային բեւեռ
+C) տանիքը
+D) Կանադա
+E) երկրի մակերեսը",D) canada,C) տանիքը,Մակերեսը A) Աֆրիկան B) Հյուսիսային բեւեռ C) Տանիքը D) Կանադա E) Երկրի ընդլայնությունը,A) աֆրիկան,B) Հյուսիսային բեւեռ,B,north pole,D,canada,D,canada,C,տանիքը,,"աֆրիկան
+B) Հյուսիսային բեւեռ
+C) տանիքը
+D) Կանադա
+E) երկրի մակերեսը",C,տանիքը,,Աֆրիկան B) Հյուսիսային բեւեռ C) Տանիքը D) Կանադա E) Երկրի ընդլայնությունը,A,աֆրիկան,B,Հյուսիսային բեւեռ
+What will happen to you if you are staying healthy?,staying healthy,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['injury', 'happiness', 'long life', 'a long nose', 'envy'],
+      dtype=object)}",C,injury,happiness,long life,a long nose,envy,"Ի՞նչ կլինի ձեզ հետ, եթե առողջ մնաք:",վնասվածք,երջանկություն,երկար կյանք,երկար քիթ,նախանձ,C) long life,A) վնասվածք,C) long life,"Հարց: Ի՞նչ կլինի ձեզ հետ, եթե առողջ մնաք:
+Տարբերակներ:
+A) վնասվածք
+B) երջանկություն
+C) երկար կյանք
+D) երկար քիթ
+E) նախանձ",C) long life,C) երկար կյանք,Երջանկության։,A) վնասվածք,B) երջանկություն,C,long life,C,long life,C,long life,A,վնասվածք,,"վնասվածք
+B) երջանկություն
+C) երկար կյանք
+D) երկար քիթ
+E) նախանձ",C,երկար կյանք,,,A,վնասվածք,B,երջանկություն
+Where do students use a pen?,pen,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array([""friend's house"", 'paper', 'office supply store', 'pocket',
+       'classroom'], dtype=object)}",E,friend's house,paper,office supply store,pocket,classroom,Որտե՞ղ են ուսանողները գրիչ օգտագործում:,ընկերոջ տուն,թուղթ,գրասենյակային պարագաների խանութ,գրպան,դասարան,E) classroom,B) թուղթ,B) paper,"Հարց: Որտե՞ղ են ուսանողները գրիչ օգտագործում:
+Տարբերակներ:
+A) ընկերոջ տուն
+B) թուղթ
+C) գրասենյակային պարագաների խանութ
+D) գրպան
+E) դասարան",B) paper,"Հարց. Որտե՞ղ են ուսանողները գրիչ օգտագործում:
+
+Տարբերակներ.
+A) ընկերոջ տուն
+B) թուղթ
+C) գրասենյակային պարագաների խանութ
+D) գրպան
+E) դասարան
+
+E","Ծանոթացի, մինչև այստեղ գրածը նվազագույնն է, որովհետեւ պարունակում ենք երկու անգամ հարցը՝ ամենահամապատասխան տարբերակը վերաբերում ամենամտածված տարբերակի։ A՝",A) ընկերոջ տուն,D) գրպան,E,classroom,B,paper,B,paper,B,թուղթ,,"ընկերոջ տուն
+B) թուղթ
+C) գրասենյակային պարագաների խանութ
+D) գրպան
+E) դասարան",,"ընկերոջ տուն
+B) թուղթ
+C) գրասենյակային պարագաների խանութ
+D) գրպան
+E) դասարան
+
+E",,,A,ընկերոջ տուն,D,գրպան
+Where do investment bankers hang out in the suburbs?,banker,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['wall street', 'city hall', 'monopoly game', 'michigan',
+       'country club'], dtype=object)}",E,wall street,city hall,monopoly game,michigan,country club,Որտե՞ղ են ներդրումային բանկիրները զվարճանում արվարձաններում:,Ուոլ Սթրիթ,քաղաքապետարան,մենաշնորհային խաղ,Միչիգան,երկրի ակումբ,E) country club,B) քաղաքապետարան,E) country club,"Հարցը հասնելուց հետո մենք ապահովում ենք ներդրումային բանկիրների արվարձանները։ 
+Ընդհանուր տարբերակներից մեկը վերայնացվում է որպես առաջին տարբիրակ։ 
+Պատասխանները ունեն նման կամ/և լույսի հետիոտներին կամ/և մեքենաների համար կարմիր և կանաչ լույսին կամ/և մեքենաների համար, ուրիշ տարբերակները վերաբերում են այլ առաջին տարբիրակների համարեցող տարրերին։ Ստացվեց որ ապահովությունը կապված է լույսի և մեքենաների համար։ Ուրիշ տարբերակները կապված են լույսի հետիոտներին։ 
+Ճիշտ պատասխանը կարմիր և կանաչ լույսին մեքենաների համար են։ 
+
+Գուշակեք որպեսզի տարբերակների դիրքերին ու անվարտ տեսքերին տեսք ունեն և դրանով հսկանալ որն-որնվածությունը։",A) wall street,A) Ուոլ Սթրիթ,"Երբ ներդրվում են նախազգուշացումներ մարտավարությունից հետո: A) հաշվի առնելով, անգամ փաստվում են կյանքադրումավոր հանդիսային մարմիններ առանձին Երգասարդուհիներից յարատեսական մեջ։ B) հաշվի առնելով, անմահության ենթակատարությունը ձևավորված է որոշիչների անցույտի աստիճանի ստուգման վրա։ C) հաշվի առնելով, դրականության դեպքում այն կարող է ավելի վիճակաբաշխվել և կատարվել մեկընթացային մելում D) հաշվի առնելով, անգամ առանց մատչելումների ենթակայություն մաքուր օրենքից՝ նախորդ վարժության ժամանակ այլ կողմից ստացվում են դատավարական կողմից ոչ արգելելի հիանալի վեճերը: E) հաշվի առնելով, այն կատարվում է արտահանելիների դեպքում:",Տարբերակը B) քաղաքապետարաններում,D) Միչիգան,E,country club,E,country club,A,wall street,B,քաղաքապետարան,,,A,Ուոլ Սթրիթ,,"հաշվի առնելով, անգամ փաստվում են կյանքադրումավոր հանդիսային մարմիններ առանձին Երգասարդուհիներից յարատեսական մեջ։ B) հաշվի առնելով, անմահության ենթակատարությունը ձևավորված է որոշիչների անցույտի աստիճանի ստուգման վրա։ C) հաշվի առնելով, դրականության դեպքում այն կարող է ավելի վիճակաբաշխվել և կատարվել մեկընթացային մելում D) հաշվի առնելով, անգամ առանց մատչելումների ենթակայություն մաքուր օրենքից՝ նախորդ վարժության ժամանակ այլ կողմից ստացվում են դատավարական կողմից ոչ արգելելի հիանալի վեճերը: E) հաշվի առնելով, այն կատարվում է արտահանելիների դեպքում:",,քաղաքապետարաններում,D,Միչիգան
+What would a person do if he or she just woke up?,person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['drink tea', 'thank god', 'open eyes', 'feel angry',
+       'complete sentence'], dtype=object)}",A,drink tea,thank god,open eyes,feel angry,complete sentence,"Ի՞նչ կաներ մարդը, եթե նոր արթնանա:",խմել թեյ,փառք Աստծո,բաց աչքերը,զայրացած զգալ,ամբողջական նախադասություն,C) open eyes,E) ամբողջական նախադասություն,C) Open eyes,Բ,C,E) ամբողջական նախադասություն,"Ի՞նչ արեւելք ունես, եթե առաջին օրն է՝",Պատասխանը պիտի լինի 'D'՝ զայրացած զգալ։,A,C,open eyes,C,Open eyes,C,,E,ամբողջական նախադասություն,,,E,ամբողջական նախադասություն,,,,,A,
+"The person was exposed as a liar, so what happened as a result?",person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['prepare to go', 'catch cold', 'hunt for food', 'they shivered',
+       'feel humiliated'], dtype=object)}",E,prepare to go,catch cold,hunt for food,they shivered,feel humiliated,"Մարդը մերկացվել է որպես ստախոս, ուրեմն ի՞նչ եղավ արդյունքում։",պատրաստվել գնալ,մրսածություն,որս ուտելու համար,նրանք դողում էին,նվաստացած զգալ,E) feel humiliated,E) նվաստացած զգալ,E) feel humiliated,"Հարց: Մարդը մերկացվել է որպես ստախոս, ուրեմն ի՞նչ եղավ արդյունքում։
+Ընտրեք.
+A) պատրաստվել գնալ
+B) մրսածություն
+C) որս ուտելու համար
+D) նրանք դողում էին
+E) նվաստացած զգալ",E) feel humiliated,D) նրանք դողում էին,Ես քեզ հարցում կտրել եմ A) պատրաստվել գնալ տանջելու համար։,"Պատասխանը B է, մարդը մրսածության եղավ արդյունքում։",D) նրանք դողում էին,E,feel humiliated,E,feel humiliated,E,feel humiliated,E,նվաստացած զգալ,,"պատրաստվել գնալ
+B) մրսածություն
+C) որս ուտելու համար
+D) նրանք դողում էին
+E) նվաստացած զգալ",D,նրանք դողում էին,,պատրաստվել գնալ տանջելու համար։,,,D,նրանք դողում էին
+When you go to buy a sheep you will learn that it is what?,sheep,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['expensive', 'wolf', 'wool', 'goat', 'lamb'], dtype=object)}",A,expensive,wolf,wool,goat,lamb,"Երբ գնում եք ոչխար գնելու, կսովորեք, որ դա ինչ է:",թանկ,գայլ,բուրդ,այծ,գառ,A) expensive,D) այծ,C) wool,A) թանկ,C) wool,C) բուրդ,"Երբ գնում եք ոչխար գնելու, կսովորեք, որ դա ինչ է:",A) թանկ,D,A,expensive,C,wool,C,wool,D,այծ,A,թանկ,C,բուրդ,,,A,թանկ,D,
